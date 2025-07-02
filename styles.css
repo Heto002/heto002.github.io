@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  background: #1d2b3a;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Top Bar */
+.top-bar {
+  background: #fff;
+  color: #000;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.top-bar .talk-btn {
+  background: #00eaff;
+  border: none;
+  color: #000;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.top-bar .call-text {
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.top-bar .linkedin-icon img {
+  width: 24px;
+  height: 24px;
+}
+
+/* Header */
+.main-header {
+  background: #2c3e50;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo span {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding-left: 0;
+  margin: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+  color: #00eaff;
+}
+
+/* Hero Section */
+.hero {
+  background: url('hero-background.jpg') center/cover no-repeat;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-content h3 {
+  color: #00eaff;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn.primary {
+  background: #00eaff;
+  color: #000;
+}
+
+.btn.primary:hover {
+  background: #00c8d9;
+}
+
+.btn.secondary {
+  background: transparent;
+  border: 1px solid #ccc;
+  color: #ccc;
+}
+
+.btn.secondary:hover {
+  background: #333;
+}
