@@ -140,6 +140,10 @@ body {
   flex-wrap: wrap;
 }
 
+.mid-overlay{
+  background-color: #00eaff;
+}
+
 .btn {
   padding: 15px 30px;
   border-radius: 5px;
