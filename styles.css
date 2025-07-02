@@ -43,7 +43,8 @@ body {
 
 /* Header */
 .main-header {
-  background: #2c3e50;
+  background: black;
+  /*background: #2c3e50;*/
 }
 
 .header-container {
