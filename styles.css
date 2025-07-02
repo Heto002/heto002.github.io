@@ -91,10 +91,11 @@ body {
 
 /* Hero Section */
 .hero {
-  background: url('hero-background.jpg') center/cover no-repeat;
+  background: url('TTECH Logo July 2025.png') center center / cover no-repeat;
   min-height: 600px;
   display: flex;
   align-items: center;
+  justify-content: center;
   text-align: center;
   padding: 50px 20px;
 }
