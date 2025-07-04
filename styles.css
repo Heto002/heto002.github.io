@@ -141,6 +141,12 @@ body {
   flex-wrap: wrap;
 }
 
+.subhero {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+}
+
 .mid-overlay{
   background-color: #00eaff;
 }
